@@ -40,7 +40,6 @@ public class TrianguloRectangulo {
 		return ((a * b) / 2.0);
 	}
 
-	
 	/**
 	 * Metodo para calcular la hipotenusa del triangulo rectangulo
 	 * 
@@ -60,14 +59,13 @@ public class TrianguloRectangulo {
 	public double perimetro() {
 		return a + b + hipotenusa();
 	}
-
 	
 
-/**
- * Getter para obtener el cateto a
- * 
- * @return cateto a
- */
+	/**
+	 * Getter para obtener el cateto a
+	 * 
+	 * @return cateto a
+	 */
 	public double getA() {
 		return a;
 	}
@@ -83,21 +81,17 @@ public class TrianguloRectangulo {
 
 	}
 
-/**
- * toString para mostrar el mensaje de información de la clase triangulo rectangulo
- * 
- */
-	public String toString() { 
-		String mensaje = ""; 
-		mensaje += "El cateto 1 (a) es: " + this.a; 
-		mensaje += "El cateto 2 (b) es: " + this.b; 
-		return mensaje; }
 	
-	
-	
-	
-	
-	
-	
-	
+	/**
+	 * toString para mostrar el mensaje de información de la clase triangulo
+	 * rectangulo
+	 * 
+	 */
+	public String toString() {
+		String mensaje = "";
+		mensaje += "El cateto 1 (a) es: " + this.a;
+		mensaje += "El cateto 2 (b) es: " + this.b;
+		return mensaje;
+	}
+
 }
