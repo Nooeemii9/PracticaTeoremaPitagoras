@@ -21,9 +21,9 @@ class testTrianguloRectangulo {
 
 	@Test
 	void testAreaDefecto() {
-		double areaObtenido = tr1.area();
-		double areaEsperado = 0.5;
-		assertEquals(areaEsperado, areaObtenido);
+		double areaObtenido = Math.round(tr1.area() * 100) / 100;
+	       double areaEsperado =  Math.round( 0.5 * 100) / 100;
+	       assertEquals(areaEsperado, areaObtenido);
 	}
 
 	@Test
