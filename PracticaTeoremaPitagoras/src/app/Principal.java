@@ -10,14 +10,14 @@ public class Principal {
 		
 		
 		//Area y perimetro de tr1 
-		tr1.area(); 
-		tr1.perimetro(); 
+		double areatr1 = tr1.area(); 
+		double perimetrotr1 = tr1.perimetro(); 
 		 
 		
 		
 		//Area y perimetro de tr2 
-		tr2.area();
-		tr2.perimetro(); 
+		double areatr2= tr2.area();
+     	double perimetrotr2 = tr2.perimetro(); 
 		
 		
 		

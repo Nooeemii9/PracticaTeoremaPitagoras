@@ -46,9 +46,10 @@ public class TrianguloRectangulo {
 	 * @return hipotenusa del triangulo
 	 */
 	public double hipotenusa() {
-		double raiz = ((a * a) + (b * b));
-		double hipotenusa = Math.sqrt(raiz);
-		return hipotenusa;
+		double primerPaso = (this.a * this.a) + (this.b * this.b);
+		double resultado = Math.sqrt(primerPaso);
+		double redondeado = Math.round(resultado * 100) / 100;
+		return redondeado;
 	}
 
 	/**
